@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import( 
+	"fmt"
+	"github.com/Pallinder/go-randomdata"
+)
 
 func main() {
 	fmt.Println("Hello World")
 
-	fmt.Println(len("d"))
+	fmt.Println(randomdata.SillyName())
 }
+
